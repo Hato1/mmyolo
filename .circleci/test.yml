@@ -68,7 +68,7 @@ jobs:
             pip install -U openmim
             mim install git+https://github.com/open-mmlab/mmengine.git@main
             mim install 'mmcv >= 2.0.0'
-            mim install 'mmdetection==3.0.0'
+            mim install 'mmdet==3.0.0'
             pip install -r requirements/albu.txt
             pip install -r requirements/tests.txt
       - run:
